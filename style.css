@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 10px 100px;
+    display: flex;
+    flex-direction: column;
+
+    /* navbar */
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 50px;
+
+        /* nav-logo */
+        .nav-logo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .fa {
+                color: blue;
+            }
+
+            .nav-logo-name {
+                color: blue;
+            }
+        }
+
+        /* navlinks */
+        .navlinks {
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                gap: 40px;
+
+                li {
+                    list-style: none;
+
+                    .select-navlinks {
+                        border: none;
+                        font-size: large;
+                    }
+
+                    :hover {
+                        color:  blue;
+                    }
+                    
+                    
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        /* logandfree */
+        .logandfree {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            align-items: center;
+
+            .login {
+                color: blue;
+            }
+
+            .tff {
+                background-color: blue;
+                padding: 10px;
+                color: white;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    /* main */
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        /* first-main */
+        .first-main {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 0px 200px 0px 200px;
+
+            .first-main-div {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 0px 50px 0px 50px;
+                justify-items: center;
+
+                .first-main-div-p1 {
+                    font-size: x-large;
+                    font-weight: 600;
+                    padding: 0px 30px 0px 30px;
+                }
+                .first-main-div-p2 {
+                    font-size: x-large;
+                    font-weight: 600;
+                    padding: 0px 60px 0px 60px;
+
+                    .first-main-div-p2-b {
+                        color: blue;
+                    }
+                }
+                .first-main-div-p3 {
+                    color: gray;
+                    padding: 0px 50px 0px 50px;
+                    font-size: small;
+                    width: 500px;
+                    text-align: center;
+                }
+            }
+
+            /* first main div2 */
+            .first-main-div2 {
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                align-items: center;
+                padding: 0px 250px 0px 250px;
+
+                .signup-div {
+
+                    button {
+                        background-color: blue;
+                        color: white;
+                        border-radius: 20px;
+                        padding: 10px;
+                        border: none;
+                    }
+                }
+
+                .learnmore {
+                    color: blue;
+                }
+            }
+        }
+
+        /* second-main */
+        .second-main {
+            background-color: gray;
+            
+        }
+    }
+}

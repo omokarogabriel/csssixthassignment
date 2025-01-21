@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
     <title>Sixth css assignment</title>
   </head>
   <body>
@@ -12,11 +14,12 @@
       <div class="navbar">
         <!-- navlogo -->
         <div class="nav-logo">
-          <div class="nav-logo">
-            <img src="./assests/link-6931554_640.webp" alt="link-logo">
-            <p>|</p>
-            <p class="footer-logo-name">SCISSOR</p>
-          </div>
+          <!-- <div class="nav-logo"> -->
+            <!-- <img src="./assests/link-6931554_640.webp" alt="link-logo"> -->
+            <!-- <p>|</p> -->
+            <i class="fa fa-link" aria-hidden="true"></i>
+            <h2 class="nav-logo-name">|SCISSOR</h2>
+          <!-- </div> -->
         </div>
 
         <!-- navlinks -->
@@ -27,7 +30,11 @@
               <a href="#">MY URLs</a>
             </li>
             <li>
-              <option value="#">Features</option>
+              <select name="features" id="features" class="select-navlinks">
+                <option value="#"><a href="#">Features</a></option>
+                <option value="#"><a href="#">Gallery</a></option>
+                <!-- <option value="#"></option> -->
+              </select>
             </li>
             <li>
               <a href="#">Pricing</a>
@@ -54,8 +61,8 @@
         <div class="first-main">
             <div class="first-main-div">
                 <p class="first-main-div-p1">Optimize Your Online Experience with Our</p>
-                <p class="first-main-div-p2">Advanced <b>URL Shortening</b> Solution</p>
-                <p>
+                <p class="first-main-div-p2">Advanced <b class="first-main-div-p2-b">URL Shortening</b> Solution</p>
+                <p class="first-main-div-p3">
                     Personalised your shortened URLs to align with your brand identity. Utilize 
                     customs slugs, branded links, and domain customization options to reinforce
                     your brand presence and enhabce user engagement.
@@ -75,16 +82,16 @@
         <div class="second-main">
             <div class="second-main-first-div">
                 <div class="link-icons">
-                    <img src="./assests/link-6931554_640.webp" alt="link">
-                    <img src="./assests/link-6931554_640.webp" alt="link">
-                    <img src="./assests/link-6931554_640.webp" alt="link">
+                    <i class="fa fa-link" aria-hidden="true"></i>
+                    <i class="fa fa-link" aria-hidden="true"></i>
+                    <i class="fa fa-link" aria-hidden="true"></i>
                 </div>
 
                 <div class="arrow">
-                    <img src="./assests/arrow-1314515_1280.webp" alt="">
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                 </div>
                 <div class="last-link-icon">
-                    <img src="./assests/link-6931554_640.webp" alt="link">
+                    <i class="fa fa-link" aria-hidden="true"></i>
                 </div>
             </div>
             <div class="second-main-second-div">
@@ -143,7 +150,7 @@
 
             <div class="fifth-main-div2">
                 <p class="fifth-main-div2-left-top">
-                    <img src="./assests/link-6931554_640.webp" alt="link">
+                    <i class="fa fa-link" aria-hidden="true"></i>
                     <h3>URL Shortening</h3>
                     <p>
                         Scissors allows you to shorten URLs of your business, events. Shorten 
@@ -151,7 +158,7 @@
                     </p>
                 </p>
                 <p class="fifth-main-div2-right-top">
-                    <img src="./assests/gene-editing-icon-2375787_640.webp" alt="gene-editing-icon">
+                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                     <h3>Custom URLs</h3>
                     <p>
                         With Scissors, you can create custom URLs, with the length you want!
@@ -159,7 +166,7 @@
                     </p>
                 </p>
                 <p class="fifth-main-div2-left-down">
-                    <img src="./assests/qr-6865526_1280.webp" alt="qr-code">
+                    <i class="fa fa-qrcode" aria-hidden="true"></i>
                     <h3>QR Codes</h3>
                     <p>
                         Generate QR codes to your business events.
@@ -168,12 +175,11 @@
                     </p>
                 </p>
                 <p class="fifth-main-div2-right-down">
-                    <img src="./assests/analytics-1799645_640.webp" alt="analytics">
-                    <h3>QR Codes</h3>
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                    <h3>Data Analytics</h3>
                     <p>
-                        Generate QR codes to your business events.
-                        Bring your audience and customers to your doorstep with this scan and go 
-                        solution.
+                        Receive data on the usage of either your shortened URL, custom URLs or generated QR Codes,
+                        Embedded to monitor progress.
                     </p>
                 </p>
             </div>
@@ -194,31 +200,31 @@
                 <p>Basic</p>
                 <h2>Free</h2>
                 <p>Free plans for all users</p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Unlimited URL Shortening</span></p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Basic Link Analytics</span></p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Customizable Short LInks</span></p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Standard Support</span></p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Ad-supported</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Unlimited URL Shortening</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Basic Link Analytics</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Customizable Short LInks</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Standard Support</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Ad-supported</span></p>
             </div>
             <div class="seventh-main-secondcard">
                 <p>Professional</p>
                 <h2>$15/month</h2>
                 <p>Ideal for business creators</p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Enhanced LInks Analytics</span></p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Custom Branded Domain</span></p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Advanced LInk Customization</span></p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Priority Support</span></p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Ad-free Experience</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Enhanced LInks Analytics</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Custom Branded Domain</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Advanced LInk Customization</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Priority Support</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Ad-free Experience</span></p>
             </div>
             <div class="seventh-main-thirdcard">
                 <p>Teams</p>
                 <h2>$25/month</h2>
                 <p>Share with up to 10 users</p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Team Collaboration</span></p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">User Roles and Permisions</span></p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Enhanced Security</span></p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">API Access</span></p>
-                <p><img src="./assests/hook-1727484_640.webp" alt="mark"> <span class="seventh-main-fisrtcard-span">Dedicated Account manager</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Team Collaboration</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">User Roles and Permisions</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Enhanced Security</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">API Access</span></p>
+                <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> <span class="seventh-main-fisrtcard-span">Dedicated Account manager</span></p>
             </div>
         </div>
 
@@ -365,22 +371,22 @@
       <div class="footer">
         <div class="footer-left-div">
             <div class="footer-logo">
-                 <img src="./assests/link-6931554_640.webp" alt="link-logo">
+                <i class="fa fa-link" aria-hidden="true"></i>
                  <p>|</p>
                  <p class="footer-logo-name">SCISSOR</p>
             </div>
             <div class="footer-socials">
                 <div class="social-icon">
-                    <img src="./assests/twitter-logo-1788039_1280.webp" alt="twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
                 </div>
                 <div class="social-icon">
-                    <img src="./assests/instagram-1581266_640.webp" alt="instagram">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
                 </div>
                 <div class="social-icon">
-                    <img src="./assests/linkedin-2815969_1280.jpg" alt="linkdeln">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </div>
                 <div class="social-icon">
-                    <img src="./assests/facebook-2815970_640.jpg" alt="facebook">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
